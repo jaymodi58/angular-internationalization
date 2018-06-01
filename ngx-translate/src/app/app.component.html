@@ -1,0 +1,17 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div class="ui-md-offset-1">
+
+  <p-button label="English" (click)="useLanguage('en')" id="btnEnglish"></p-button>
+  <p-button label="French" (click)="useLanguage('fr')" id="btnFrench"></p-button>
+
+  <h1 class="ui-float-label" style="color: red" id="lblWelcome">{{'home.welcomeMessage' | translate}}</h1>
+
+  <span class="ui-float-label" style="margin-top: 2em">
+      <input id="float-input" type="text" size="30" pInputText>
+      <label for="float-input">{{'home.name' | translate}}</label>
+  </span>
+
+  <input id="txtAddress" type="text" size="30" pInputText style="margin-top: 1em" placeholder="{{'home.address' | translate}}">
+
+
+</div>
